@@ -4,10 +4,13 @@
     "module": "esnext",
     "jsx": "react",
     "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": false,
     "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "Node",
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
